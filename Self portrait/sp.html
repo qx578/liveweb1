@@ -1,0 +1,112 @@
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript">
+            let hi ="hello world"
+            console.log(hi);
+
+            function bigImg(x) {
+                x.style.height = "300px";
+                x.style.width = "500px";
+            }
+  
+             function normalImg(x) {
+                x.style.height = "400px";
+                x.style.width = "600px";
+            }
+
+
+            function Readmore() {
+    document.getElementById("readmore").innerHTML = "I like to listen to..... resize to tablet size to find out and please scroll down"
+}
+        
+        </script>
+        <style>
+            body{
+                background-color: rgb(126, 69, 126);
+            }
+
+            #one{
+                font-size:60px;
+                color: white;
+            }
+            
+            #two{
+                font-size:30px;
+                color: white;
+            }
+
+            p.hidden{
+                display: show;
+            }
+
+            
+            body {
+                 background-color: rgb(68, 58, 58);
+                color: rgb(255, 255, 255);
+               
+            }
+
+            @media screen and (max-width: 900px) {
+             body {
+                background-color: rgba(177, 126, 126, 0.932);
+                color: rgb(0, 0, 0);
+            }
+
+            p.hidden{
+                display: none;
+            }
+            p.hidden2{
+            display: show;
+            }
+
+            }
+
+            @media screen and (max-width: 650px) {
+            body {
+                background-color: rgb(121, 142, 158);
+                color: rgb(0, 0, 0);
+                }
+
+             p.hidden{
+            display: show;
+            }
+            div.hidea{
+            display: none;
+            }
+            button.hideb{
+                display: none; 
+            }
+            p.hidden2{
+            display: none;
+            }
+            }
+            
+            
+        </style>
+
+    </head>
+    <body>
+        <h1 id = "one"> Hi, This is Karen  </h1>
+        <h2 id = "two"> Resize the webpage to learn more/less about me </h1>
+      
+        <iframe src="https://editor.p5js.org/qx578/full/Gc9DhRBbi" width="400" height="480" id="portrait"></iframe>
+        
+
+
+       <br><button type="button" class="buttonrm" onclick="Readmore()" class="hideb">Read More</button></br>
+        <p id="readmore">
+
+                  
+       <div class="hidea" > <audio controls> <source src="music.wav" type="audio/mpeg"> </audio> </div>
+
+       <p class="hidden2"> my home is ..... resize to desktop size to find out!</p> 
+       <p class="hidden"> 
+           I am a International student from Xiamen, China. Xiamen is a small island located in the south east of China. Find more about my city <a href="https://en.wikipedia.org/wiki/Xiamen">here</a>
+       </p>
+
+       
+
+
+    </body>
+</html>
