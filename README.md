@@ -1,2 +1,2 @@
-# http://liveweb1
+# http://liveweb1.github.io
 self portrait
